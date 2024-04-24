@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Age calculator app</title>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link href="./src/input-dist.css" rel="stylesheet" />
+    <script src="./src/index.js"></script>
+  </head>
+  <body class="bg-gray-100 flex justify-center pt-10">
+    <section
+      class="bg-white w-[350px] rounded-lg p-12 space-y-4 rounded-br-[120px]"
+    >
+      <header class="flex gap-2 w-full">
+        <div class="flex flex-col flex-1 gap-1">
+          <span class="text-[12px] font-bold uppercase text-gray-500">Day</span>
+          <input
+            type="number"
+            class="w-full py-2 px-2 border border-gray-200 rounded-md cursor-pointer focus:outline-none focus:border-purple-500 focus:ring-purple-500"
+          />
+        </div>
+        <div class="flex flex-col flex-1 gap-1">
+          <span class="text-[12px] font-bold uppercase text-gray-500">Month</span>
+          <input
+            type="number"
+            class="w-full py-2 px-2 border border-gray-200 rounded-md cursor-pointer focus:outline-none focus:border-purple-500 focus:ring-purple-500"
+          />
+        </div>
+        <div class="flex flex-col flex-1 gap-1">
+          <span class="text-[12px] font-bold uppercase text-gray-500">Year</span>
+          <input
+            type="number"
+            class="w-full py-2 px-2 border border-gray-200 rounded-md cursor-pointer focus:outline-none focus:border-purple-500 focus:ring-purple-500"
+          />
+        </div>
+      </header>
+      <button class="block mx-auto">
+        <img
+          src="./assets/images/icon-arrow.svg"
+          alt=""
+          class="bg-purple-500 rounded-full p-3 h-12 hover:bg-black"
+        />
+      </button>
+      <div class="text-[48px] font-extrabold italic">
+        <p class="leading-[1]"><span class="text-purple-600">38</span> years</p>
+        <p class="leading-[1]"><span class="text-purple-600">3</span> months</p>
+        <p class="leading-[1]"><span class="text-purple-600">26</span> days</p>
+      </div>
+    </section>
+  </body>
+</html>
